@@ -1,0 +1,16 @@
+(executable
+ (public_name udp_ocaml)
+ (name main)
+ (libraries
+  dream
+  udp_ocaml
+  lwt
+  dream-html
+  cstruct
+  cstruct-lwt
+  lwt.unix
+  bigstringaf
+  bigstring-unix
+  cstruct-unix)
+ (preprocess
+  (pps ppx_cstruct)))

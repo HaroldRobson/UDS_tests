@@ -1,0 +1,6 @@
+# dune build
+# OCAMLPARAM: unset
+# Shared cache: enabled-except-user-rules
+# Shared cache location: /home/harold/.cache/dune/db
+# Workspace root: /home/harold/Work/experiments/udp_ocaml
+# Auto-detected concurrency: 16
